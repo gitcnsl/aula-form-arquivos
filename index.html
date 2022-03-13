@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formulário de dados</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<form action="" method="post">
+		<header>
+			<h1>Preencha seus dados</h1>
+		</header>
+		<h3> Favor preencher os campos abaixo:</h3>
+		<p> <input type="text" placeholder="USUÁRIO" autofocus required class="dados usuario" /> </p>
+		<p> <input type="email" placeholder="EMAIL" required class="dados email" /> </p>
+		<p>
+			<select id="tipo" class="tipo">
+				<option value="" selected disabled>Selecione o assunto</option>
+				<option value="">Fazer um elogio</option>
+				<option value="">Fazer uma reclamação</option>
+				<option value="">Fazer uma solicitação</option>
+				<option value="">Enviar um arquivo</option>
+			</select>
+		</p>
+		<p> <textarea placeholder="SUA MENSAGEM" class="mensagem"></textarea> </p>
+		<p> <input type="submit" value="Enviar" class="enviar" /> </p>
+	</form>
+</body>
+
+</html>
